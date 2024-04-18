@@ -28,6 +28,7 @@ const AddTodo = () => {
           placeholder="Add Todo"
           value={todoName}
           onChange={handleTodoName}
+          required
         />
       </div>
       <div className="col-5">
@@ -36,6 +37,7 @@ const AddTodo = () => {
           className="form-control"
           value={todoDate}
           onChange={handleTodoDate}
+          required
         />
       </div>
       <div className="col-2">
